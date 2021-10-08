@@ -239,3 +239,43 @@ a{
     }
 
 }
+
+/* Sign up CTA section */
+
+.sign-up-cta-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 7rem auto;
+    padding: 3rem 1rem;
+    color: #f9faf8;
+    background-color: var(--main-light-blue);
+    border-radius: 10px;
+}
+
+.cta-text-heading{
+    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.cta-btn{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.sign-up-cta-container .sign-up-btn{
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 760px){
+
+    .sign-up-cta-container{
+        flex-direction: column;
+        gap: 2rem 0;
+        text-align: center;
+    }
+
+    .cta-btn{
+        justify-content: center;
+    }
+}
