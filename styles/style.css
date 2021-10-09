@@ -124,7 +124,11 @@ a{
 .home-text .sign-up-btn{
     margin-top: 1.5rem;
     background-color: #3882f6;
-    
+    transition: 0.2s;
+}
+
+.home-text .sign-up-btn:hover{
+    background-color: #2A5CAF;
 }
 
 .home-img{
@@ -263,9 +267,14 @@ a{
     align-items: flex-end;
 }
 
-
 .sign-up-cta-container .sign-up-btn{
-    border: 2px solid white;
+    border: 2px solid #f9faf8;
+    transition: 0.2s;
+}
+
+.sign-up-cta-container .sign-up-btn:hover{
+    color: var(--main-light-blue);
+    background-color: #f9faf8;
 }
 
 @media screen and (max-width: 760px){
