@@ -27,6 +27,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 .container{
@@ -277,5 +278,34 @@ a{
 
     .cta-btn{
         justify-content: center;
+    }
+}
+
+/* Footer */
+
+.footer{
+    padding: 1rem;
+    background-color: var(--main-dark-blue);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.copyrights{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.my-github{
+    transition: 0.2s all ease;
+}
+
+.my-github:hover{
+    color: #bebebe;
+}
+
+@media screen and (max-width: 400px){
+    .copyrights{
+        font-size: 0.9rem;
     }
 }
